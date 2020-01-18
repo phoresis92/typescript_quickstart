@@ -92,7 +92,7 @@ $ tsc --init # 기본 tsconfig.json 파일이 만들어진다
         "outDir": "dist", // 컴파일 결과를 특정 디렉터리로 출력하도록 설정, outFile 속성과 대치되는 속성, ts 파일의 컴파일 결과를 1:1로 대응시켜 .js 파일로 저장.
         "pretty": true, //                 
         "importHelpers": true,
-        "strictNullChecks": false,
+        "strictNullChecks": false, // 변수에 null, undefined 할당 불가
         "noImplicitThis": true,
         "alwaysStrict": true,
         "noUnusedLocals": true,
